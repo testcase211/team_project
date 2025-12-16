@@ -1,0 +1,60 @@
+.text-primary{
+  color:seashell;
+}
+.text-secondary{
+  color:#40e0d0;
+}
+.bg-primary{
+  color: #333;
+  background-color: #40e0d0;
+}
+.btn{
+  display: inline-block;
+  background-color:teal;
+  color: aliceblue; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+
+}
+.btn:hover{
+  opacity: 0.8;
+
+}
+.btn-primary{
+  color: blanchedalmond;
+  background-color: steelblue;
+}
+.btn-secondary{
+  color:snow;
+  background-color:crimson;
+}
+.btn-dark{
+  color: #333;
+  background-color:aliceblue;
+}
+.flex-items{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+.flex-items>div{
+  padding: 20px;
+}
+.flex-columns .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.flex-columns .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.flex-columns .column .column1,.flex-columns .column .column2{
+  height: 100%;
+}
