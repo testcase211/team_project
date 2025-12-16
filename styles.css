@@ -51,7 +51,7 @@ img{
   display: flex;
 }
 .navbar a:hover{
-  border-bottom: #d3f0db 5px solid;
+  border-bottom: #20432a 5px solid;
 }
 /* header */
 .hero{
